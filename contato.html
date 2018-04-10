@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="utf-8">
         <title>Contato | Nobre Arquitetura</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Especializada em construções, reformas e manutenções. Entre em contato e faça um orçamento.">
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
         <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
@@ -78,39 +79,39 @@
                                 <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                                     <div class="row">
                                         <div class="boxed boxed--border">
-                                            <form class="text-left form-email" data-success="Thanks for your enquiry, we'll be in touch shortly." data-error="Please fill in all fields correctly.">
-                                                <div class="col-sm-6"> <span>Nome:</span> <input type="text" name="name" class="validate-required"> </div>
-                                                <div class="col-sm-6"> <span>Empresa:</span> <input type="text" name="company" class="validate-required"> </div>
+                                            <form class="text-left" action="https://formspree.io/contato@arquiteturanobre.com.br" method="POST" data-success="Obrigado pelo contato. Em breve o responderemos." data-error="Favor verificar se preencheu todos os campos corretamente.">
+                                                <div class="col-sm-6"> <span>Nome:</span> <input type="text" name="nome" class="validate-required"> </div>
+                                                <div class="col-sm-6"> <span>Empresa:</span> <input type="text" name="empresa" class="validate-required"> </div>
                                                 <div class="col-sm-6"> <span>Email:</span> <input type="email" name="email" class="validate-required validate-email"> </div>
-                                                <div class="col-sm-6"> <span>Telefone:</span> <input type="tel" name="phone" class="validate-required"> </div>
+                                                <div class="col-sm-6"> <span>Telefone:</span> <input type="tel" name="telefone" class="validate-required"> </div>
                                                 <div class="col-sm-12"> <span>Endereço:</span> <input type="text" name="endereco" class="validate-required"> </div>
-                                                <div class="col-sm-12"> <span>Descrição do Serviço:</span> <textarea rows="5" name="description" class="validate-required"></textarea> </div>
+                                                <div class="col-sm-12"> <span>Descrição do Serviço:</span> <textarea rows="5" name="descricao" class="validate-required"></textarea> </div>
                                                 <div class="col-sm-12 text-center boxed">
                                                     <h5>Serviço(s) de Interesse</h5>
                                                 </div>
-                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Manutenção Preventiva/Corretiva</span>
-                                                    <div class="input-checkbox"> <input type="checkbox" name="design"> <label></label> </div>
+                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Elaboração de Projetos<br></span>
+                                                    <div class="input-checkbox"> <input type="checkbox" name="elaboracao-de-projetos"> <label> </label> </div>
                                                 </div>
-                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Elaboração/Execução de Projeto<br></span>
-                                                    <div class="input-checkbox"> <input type="checkbox" name="dev"> <label> </label> </div>
+                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Construção<br></span>
+                                                    <div class="input-checkbox"> <input type="checkbox" name="construcao"> <label> </label> </div>
                                                 </div>
-                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block"><br>Construção/Reforma<br></span>
-                                                    <div class="input-checkbox"> <input type="checkbox" name="dev"> <label> </label> </div>
+                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Reforma<br></span>
+                                                    <div class="input-checkbox"> <input type="checkbox" name="reforma"> <label></label> </div>
                                                 </div>
-                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block"><br>Impermeabilização<br></span>
-                                                    <div class="input-checkbox"> <input type="checkbox" name="dev"> <label> </label> </div>
+                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Gerenciamento de Obras<br></span>
+                                                    <div class="input-checkbox"> <input type="checkbox" name="gerenciamento-de-obras"> <label> </label> </div>
                                                 </div>
-                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block"><br>Elétrica<br></span>
-                                                    <div class="input-checkbox"> <input type="checkbox" name="brand"> <label> </label> </div>
+                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Manutenções<br></span>
+                                                    <div class="input-checkbox"> <input type="checkbox" name="manutencoes"> <label></label> </div>
                                                 </div>
-                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block"><br>Hidráulica<br></span>
-                                                    <div class="input-checkbox"> <input type="checkbox" name="marketing"> <label></label> </div>
+                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Serviços em Altura<br></span>
+                                                    <div class="input-checkbox"> <input type="checkbox" name="servicos-em-altura"> <label></label> </div>
                                                 </div>
-                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Manutenção/Limpeza Ar Condicionado<br></span>
-                                                    <div class="input-checkbox"> <input type="checkbox" name="marketing"> <label></label> </div>
+                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Impermeabilização<br></span>
+                                                    <div class="input-checkbox"> <input type="checkbox" name="impermeabilizacao"> <label> </label> </div>
                                                 </div>
-                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block"><br>Outro(s)<br></span>
-                                                    <div class="input-checkbox"> <input type="checkbox" name="marketing"> <label></label> </div>
+                                                <div class="col-sm-3 col-xs-6 text-center"> <span class="block">Outro(s)<br></span>
+                                                    <div class="input-checkbox"> <input type="checkbox" name="outros"> <label></label> </div>
                                                 </div>
                                                 <div class="col-sm-12 boxed"> <button type="submit" class="btn btn--primary type--uppercase">enviar email</button> </div>
                                             </form>
